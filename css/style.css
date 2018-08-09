@@ -22,10 +22,15 @@ a:link, a:visited, a:hover, a:active {
 /* --------------------------------
  * parts
  * -------------------------------- */
+
 .clearfix::after {
   content: '';
   display: block;
   clear: both;
+}
+
+.hidden {
+  display: none;
 }
 
 /* --------------------------------
@@ -94,11 +99,20 @@ a:link, a:visited, a:hover, a:active {
   margin: 30px auto 40px;
 }
 
+/* --------------------------------
+ * main
+ * -------------------------------- */
+
 .main {
   display: block;
   float: left;
   width: 660px;
 }
+
+
+/* --------------------------------
+ * sidemenu
+ * -------------------------------- */
 
 .sidemenu {
   float: right;
